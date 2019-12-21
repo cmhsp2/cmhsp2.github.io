@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{sparsity.html}, notime
+== CIRM Winter School, IHP Course 2019
+
+== CIRM Winter School 2019
+
+=== Lecture slides
+	. [files/teaching/sparsity/bases.pdf Wavelets] 
+	. [files/teaching/sparsity/cs.pdf Compressed sensing 1] 
+	. [files/teaching/sparsity/cs2.pdf Compressed sensing 2] 
+	. [files/teaching/sparsity/blasso_presentation.pdf BLASSO slides] 
+	. [files/teaching/sparsity/blasso.pdf BLASSO notes]  
+
+=== Matlab resources
+	- Wavelet toolbox: [http://statweb.stanford.edu/~wavelab/ Wavelab], Additional Wavelab files: [files/teaching/sparsity/WaveLabFiles.zip 32KB]
+	- [/approx.html Linear and nonlinear approximation with wavelets]
+	- [/nonlinapprox_images.html Nonlinear wavelet approximation for images]
+	- Compressed sensing primal-dual code:   [files/teaching/sparsity/CS_primal_dual.zip 5.4MB]
+	- Gabriel Peyré's tutorial on the [https://nbviewer.jupyter.org/github/gpeyre/numerical-tours/blob/master/matlab/sparsity_8_sparsespikes_measures.ipynb BLASSO]
+
+
+
+== IHP Course on BLASSO 2019
+	- [files/teaching/sparsity/blasso.pdf Lecture notes]
+	- [files/teaching/sparsity/IHP-course.zip MATLAB code] 

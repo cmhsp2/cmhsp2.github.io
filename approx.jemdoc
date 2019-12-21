@@ -1,0 +1,265 @@
+# jemdoc: menu{MENU}{approx.html}, notime
+== Linear and Nonlinear Approximation
+
+*Prerequisites*: You will need to download Wavelab850.
+
+== Linear approximation
+Recall that the Fourier linear aproximation error is $O(N^{-2s})$ for $f \in W^{s, 2}(0,1)$, and $O(N^{-1})$ for BV functions. The difference for linear wavelet approximations is the treatment of the boundary, for $f \in W^{s, 2}(0,1)$, the linear approximation error with wavelets of $q > s$ vanishing moments is $O(N^{-2s})$ and $O(N^{-1})$ if $f \in BV[0, 1]$.
+
+Let's creat a signal $f(t) = \chi_{(0,1/2)}(t) \frac{t^2}{2} + \chi_{(0,1/2)}(t) \frac{t - t^2}{2}$ \in $W^{2,2}(0, 1)$.
+~~~
+{}{matlab}
+N=1024;
+t=linspace(0,1,N);
+fun = @(t) (t>0).*(t<0.5).*t.^2/2 + (t-t.^2)/2.*(t<1).*(t>=0.5);
+f = fun(t);% 
+normf = norm(f)^2;
+figure;
+plot(f);
+~~~
+
+
+~~~
+{}{img_left}{files/approx/img01.png}{}{}{350px}{}
+~~~
+
+
+Compute the linear approximation from the first 30% of the Fourier coefficients and compute the error decay rate:
+~~~
+{}{matlab}
+%% fourier
+p=ceil(0.15*N);
+hat = fft(f);
+hatf = zeros(1,N);
+hatf(1:p+1) = hat(1:p+1);
+hatf(N-p+1:N) =hat(N-p+1:N);
+fourf = ifft(hatf);
+fourerr = norm(fourf - f)^2;
+four_decay_exponent = log(fourerr)/log(p)
+% four\_decay\_exponent = -3.2828
+figure;
+plot(fourf);
+~~~
+
+
+~~~
+{}{img_left}{files/approx/img02.png}{}{}{350px}{}
+~~~
+
+
+
+Calculate the linear wavelet decay rate using the Daubechies wavelet of 2 vanishing moments:
+~~~
+{}{matlab}
+a=2;
+L=ceil(log2(2*a))+1;
+wc = FWT_CDJV(f,L,a);
+wc_approx = zeros(1,N);
+wc_approx(1:2*p) = wc(1:2*p);
+daub_rec = IWT_CDJV(wc_approx,L,a);
+wav_err = norm(daub_rec - f)^2;
+wavelet_decay_exponent = log(wav_err)/log(p)
+% wavelet_decay_exponent = -3.2714
+plot(daub_rec);
+~~~
+
+~~~
+{}{img_left}{files/approx/img03.png}{}{}{350px}{}
+~~~
+
+
+
+Let's now repeat this exercise for the nonperiodic function $f(t) = t(t-\frac{1}{2})(t-\frac{1}{4})$ defined on $[0, 1]$:
+
+~~~
+{}{matlab}
+N=1024;
+t=linspace(0,1,N);
+fun = @(t) t.*(t-0.5).*(t-1/4);
+f = fun(t);% 
+normf = norm(f)^2;
+figure;
+plot(f);
+~~~
+
+~~~
+{}{img_left}{files/approx/img04.png}{}{}{350px}{}
+~~~
+
+
+What is its Fourier linear approximation?
+~~~
+{}{matlab}
+%% fourier
+p=ceil(0.15*N);
+hat = fft(f);
+hatf = zeros(1,N);
+hatf(1:p+1) = hat(1:p+1);
+hatf(N-p+1:N) =hat(N-p+1:N);
+fourf = ifft(hatf);
+fourerr = norm(fourf - f)^2;
+four_decay_exponent = log(fourerr)/log(p)
+% four_decay_exponent = -0.6209
+plot(fourf)
+~~~
+
+~~~
+{}{img_left}{files/approx/img05.png}{}{}{350px}{}
+~~~
+
+
+
+Check the linear approximation decay for wavelets of 2 and 3 vanishing moments:
+~~~
+{}{matlab}
+a=2;
+L=ceil(log2(2*a))+1;
+wc = FWT_CDJV(f,L,a);
+wc_approx = zeros(1,N);
+wc_approx(1:2*p) = wc(1:2*p);
+daub_rec = IWT_CDJV(wc_approx,L,a);
+wav_err = norm(daub_rec - f)^2;
+wav_decay_exponent_2moments = log(wav_err)/log(p)
+% wav_decay_exponent_2moments = -3.5500
+plot(daub_rec)
+~~~
+
+
+~~~
+{}{img_left}{files/approx/img06.png}{}{}{350px}{}
+~~~
+
+
+~~~
+{}{matlab}
+a=3;
+L=ceil(log2(2*a))+1;
+wc = FWT_CDJV(f,L,a);
+wc_approx = zeros(1,N);
+wc_approx(1:2*p) = wc(1:2*p);
+daub_rec = IWT_CDJV(wc_approx,L,a);
+wav_err = norm(daub_rec - f)^2;
+wav_decay_exponent_3moments = log(wav_err)/log(p)
+% wav_decay_exponent_3moments = -5.6750
+plot(daub_rec)
+~~~
+
+
+~~~
+{}{img_left}{files/approx/img07.png}{}{}{350px}{}
+~~~
+
+
+
+
+
+
+
+
+
+== Nonlinear Approximation
+Recall that the linear wavelet approximation error for a piecewise smooth function is only $O(N^{-1})$, this is the same as in the Fourier case. However, the nonlinear approximation error is $O(N^{-2s})$. 
+
+*Exercise*: create a piecewise smooth signal and verify this phenomenon.
+
+
+~~~
+{}{matlab}
+N = 2048;
+t=linspace(0,1,N);
+fun = @(t) t.*(t-0.5).*(t-1/4).^2+(t>0).*(t<0.5);
+f = fun(t);%
+plot(f)
+~~~
+
+~~~
+{}{img_left}{files/approx/img08.png}{}{}{350px}{}
+~~~
+
+
+
+Linear wavelet approximation from 15% of the coefficients:
+~~~
+{}{matlab}
+a=3; %number of vanishing moments
+ratio =0.15;
+p = ceil(ratio*N/2);
+% linear wavelet approx
+wc = FWT_CDJV(f,ceil(log2(2*a))+1,a);
+wc_approx = zeros(1,N);
+wc_approx(1:2*p) = wc(1:2*p);
+daub_rec = IWT_CDJV(wc_approx,L,a);
+wav_err = norm(daub_rec - f)^2;
+cdjv_decay = log(wav_err)/log(p)
+% cdjv_decay = 0.1592
+plot(daub_rec)
+~~~
+
+~~~
+{}{img_left}{files/approx/img09.png}{}{}{350px}{}
+~~~
+
+
+Nonlinear wavelet approximation from 15% of the coefficients:
+~~~
+{}{matlab}
+%% nonlinear approx
+wc_int = FWT_CDJV(f,ceil(log2(2*a))+1,a);
+[~,indx_int] = sort(abs(wc_int), 'descend');
+ratiowc_int = zeros(1,N);
+ratiowc_int(indx_int(1:2*p)) = wc_int(indx_int(1:2*p));
+daubf_int = IWT_CDJV(ratiowc_int,ceil(log2(2*a))+1,a);
+int_err = norm(daubf_int - f)^2;
+log(int_err)/log(p)
+% ans = -5.5426
+plot(daubf_int)
+~~~
+
+~~~
+{}{img_left}{files/approx/img10.png}{}{}{350px}{}
+~~~
+
+
+Nonlinear Fourier approximation from 15% of the coefficients:
+~~~
+{}{matlab}
+%% fourier
+hat = fft(f);
+hatf = zeros(1,N);
+[~,indxf] = sort(abs(hat), 'descend');
+hatf(indxf(1:2*p)) = hat(indxf(1:2*p));
+fourf = ifft(hatf);
+fourerr = norm(fourf - f)^2;
+log(fourerr)/log(p)
+% ans = -0.0033
+plot(real(fourf))
+~~~
+
+~~~
+{}{img_left}{files/approx/img11.png}{}{}{350px}{}
+~~~
+
+
+
+~~~
+{}{matlab}
+figure(3);clf
+subplot(411)
+plot(f);
+title('original')
+subplot(312)
+plot(real(fourf))
+title('Fourier')
+ylim([-0.1+min(f) max(f)+.1]);
+subplot(313)
+plot(daubf_int)
+title('Daubechies (interval adapted)')
+ylim([-0.1+min(f) max(f)+.1]);
+~~~
+
+~~~
+{}{img_left}{files/approx/img12.png}{}{}{350px}{}
+~~~
+
+
+

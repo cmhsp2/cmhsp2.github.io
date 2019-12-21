@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Nonlinear approximation of images</title>
+<!-- MathJax -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Clarice Poon</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="mathinform.html">Mathematics&nbsp;<br /> of&nbsp;Information</a></div>
+<div class="menu-item"><a href="sparsity.html">Sparsity&nbsp;<br /> in&nbsp;Imaging</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Nonlinear approximation of images</h1>
+</div>
+<p><b>Prerequisites</b>: You will need to download Wavelab850.</p>
+<p>First load an image:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+<span class="comment">% image=double(imread(<span class="string">'images/boat512.tif'</span>))/255;</span>
+image = phantom(512);
+image = image(1:256,1:256);
+N = 2^floor(log2(length(image)));
+image = image(1:N,1:N)/<span class="statement">max</span>(image(:));
+</pre></div></div>
+<p>Plot the wavelet coefficients of this image:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+a=2; <span class="comment">%number of vanishing moments</span>
+
+<span class="comment">%% periodic wavelet</span>
+filter = MakeONFilter(<span class="string">'Daubechies'</span>,2*a);
+L = 4;
+wc    = FWT2_PO(image,L,filter);
+<span class="comment">% wc    = FWT2_CDJV(image,L,a); uncomment <span class="statement">for</span> boundary wavelets</span>
+
+figure;
+imagesc(wc, [0 1]); colormap(<span class="string">'gray'</span>);
+</pre></div></div>
+<table class="imgtable"><tr><td>
+<img src="files/nonlinapprox_images/img01.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Compute its nonlinear wavelet approximation from the largest 5% of its coefficients:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+[<span class="operator">~</span>,indx] = sort(abs(wc(:)), <span class="string">'descend'</span>);
+ratio =0.05;
+p = ceil(sqrt(ratio*N^2/4));
+ratiowc = zeros(N);
+ratiowc(indx(1:4*p^2)) = wc(indx(1:4*p^2));
+daubf = IWT2_PO(ratiowc,L,filter);
+<span class="comment">% daubf = IWT2_CDJV(ratiowc,L,a); %uncomment <span class="statement">for</span> boundary wavelets</span>
+error_wav = norm(image-daubf)/norm(image)
+<span class="comment">% error_wav = 0.0048</span>
+
+figure;
+imagesc(daubf, [0 1]); colormap(<span class="string">'gray'</span>)
+title(<span class="string">'periodic wavelets approximation'</span>)
+axis square
+</pre></div></div>
+<table class="imgtable"><tr><td>
+<img src="files/nonlinapprox_images/img02.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Compute the Fourier nonlinear approximation:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+<span class="comment">%% fourier</span>
+hat = fft2(image);
+[<span class="operator">~</span>,indx] = sort(abs(hat(:)), <span class="string">'descend'</span>);
+fc = zeros(N);
+fc(indx(1:4*p^2)) = hat(indx(1:4*p^2));
+fourf = ifft2(fc);
+err_four = norm(image-fourf)/norm(image)
+<span class="comment">% err_four = 0.0633</span>
+
+figure;
+imagesc(real(fourf));  title(<span class="string">'Fourier'</span>);
+colormap(<span class="string">'gray'</span>)
+axis square
+</pre></div></div>
+<table class="imgtable"><tr><td>
+<img src="files/nonlinapprox_images/img03.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-01-26, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

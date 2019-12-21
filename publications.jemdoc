@@ -1,0 +1,57 @@
+# jemdoc: menu{MENU}{publications.html}, notime
+== Publications
+
+
+== Preprint
+    . C. Poon and G. Peyré. [https://arxiv.org/abs/1911.03577 Degrees of freedom for off-the-grid sparse estimation].
+	#
+    . V. Antun, F. Renna, C. Poon, B. Adcock, A. C. Hansen. [https://arxiv.org/abs/1902.05300 On instabilities of deep learning in image reconstruction - Does AI come at a cost?]
+	#
+	. C. Poon, N. Keriven and G. Peyré. [files/journal/offthegrid-golfing.pdf A dual certificate analysis of compressive off-the-grid recovery].
+	#
+	. C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].
+
+
+== Journal papers
+	. C. Poon and G. Peyré. [files/journal/HigherDimBLASSO.pdf Multi-dimensional sparse super-resolution]. SIAM J. Math. Anal. 2018 (to appear).
+	#
+	. G. Carlier and C. Poon. [files/journal/tv-wass-cocv-final-version.pdf On the total variation Wasserstein gradient flow and the TV-JKO scheme]. ESAIM COCV, 2018 (to appear).
+	#
+	. C. Dossal, V. Duval and C. Poon. [files/journal/radial_lines.pdf Sampling the Fourier transform along radial lines]. SIAM J. Numer. Anal., 55(6), 2540-2564. 2017.
+	#
+	. B. Adcock, A. C. Hansen and C. Poon and B. Roman. [files/journal/BreakingCoherenceArxiv.pdf Breaking the coherence barrier: a new theory for compressed sensing].  Forum of Mathematics, Sigma 5, 001, 2017.
+	#
+	. A. Chambolle, V. Duval and G. Peyré and C. Poon. [files/journal/v.pdf Geometric properties of solutions to the total variation denoising problem]. Inverse Problems 33.1: 015002, 2016.
+	#
+	. R. Assier, N. Peake and C. Poon. [http://qjmam.oxfordjournals.org/content/69/3/281.short Spectral study of the Laplace-Beltrami Operator arising in the problem of acoustic wave scattering by a quarter-plane]. QJMAM 69 (3): 281-317, 2016.
+	#
+	. M. Gataric and C. Poon. [files/journal/practical_paper3.pdf A practical guide to the recovery of wavelet coefficients from Fourier measurements]. SIAM J. Sci. Comput. 38(2): A1075-A1099, 2016. ([http://www.damtp.cam.ac.uk/research/afha/code/ Matlab code]) 
+	#
+	. C. Poon. [files/journal/frames_revised.pdf Structure dependent sampling in compressed sensing: theoretical guarantees for tight frames]. Appl. Comput. Harm. Anal. 42(3):402-451, 2017.
+	#
+	. C. Poon. [files/journal/tv_revision_final.pdf On the role of total variation in compressed sensing]. SIAM J. Imag. Sci. 8(1): 682-720, 2015.
+	#
+	. C. Poon. [files/journal/gs_l1_final.pdf A consistent and stable approach to generalized sampling]. J. Fourier Anal. Appl. 20:985–1019, 2014.
+	#
+	. B. Adcock, A. C. Hansen and C. Poon. [files/journal/OptimalWaveletReconstructions.pdf On optimal wavelet reconstructions from Fourier samples: linearity and universality of the stable sampling rate]. Appl. Comput. Harm. Anal. 36(3):387-415, 2013.
+	#
+	. B. Adcock, A. C. Hansen and C. Poon. [files/journal/OptimalityFinal.pdf Beyond consistent reconstructions: optimality and sharp bounds for generalized sampling, and application to the uniform resampling problem]. SIAM J. Math. Anal. 45(5):3132-3167, 2013.
+
+
+== Conferences proceedings
+    . C. Poon, J. Liang. [files/journal/a3dmm.pdf Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration], Neurips 2019 (Oral).
+	#
+    . C. Poon, N. Keriven and G. Peyré. [files/journal/blasso-fisher.pdf Support Localization and the Fisher Metric for off-the-grid Sparse Regularization], AISTATS, 2019.
+    #
+	. C. Poon, J. Liang and C. Schoenlieb. [files/conference/local-rate.pdf Local convergence properties of SAGA/Prox-SVRG and acceleration]. ICML, 2018.
+	#
+	. A. Chambolle, V. Duval and G. Peyré and C. Poon. [files/conference/ncmip.pdf Total variation denoising and support localization of the gradient]. NCMIP, 2016.
+	#
+	. C. Poon. [files/conference/sampta2015_b.pdf Recovery guarantees for TV regularized compressed sensing]. Proceedings of the 11th International Conference on Sampling Theory and Applications, 2015.
+	#
+	. B. Adcock, A. C. Hansen and C. Poon and B. Roman. [files/conference/AHPRSampta13_Revised.pdf Overcoming the coherence barrier in compressed sensing]. Proceedings of the 10th International Conference on Sampling Theory and Applications, 2013.
+	#
+	. B. Adcock, A. C. Hansen and C. Poon. [files/conference/sampta_wavelets.pdf Optimal wavelet reconstructions from Fourier samples via generalized sampling].  Proceedings of the 10th International Conference on Sampling Theory and Applications, 2013.
+	
+	
+	
