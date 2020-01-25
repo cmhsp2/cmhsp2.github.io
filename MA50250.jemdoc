@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{MA50250.html}, notime
+== Inverse problems, data assimilation and filtering (Semester 2, 2020)
+
+
+=== Time and Location
+	- Tuesday 17.15-18.15 in EB 0.15  
+	- Friday 11.15-13.15 in 8W 2.24
+
+
+=== Lecture Slides (will be updated as we progress)
+	. [files/teaching/MA505250/1_intro.pdf Introduction]
+	. [files/teaching/MA505250/2_pseudoinverse.pdf Least square solutions]
+
+=== Guest Lectures
+	- Tues 10th March: [https://jliang993.github.io/ Jingwei Liang] on applications in image processing
+	- Tues 31st March: [https://people.bath.ac.uk/mascjb/ Chris Budd] on weather forecasting
+
+
+===  References
+	. [https://books.google.com/books/about/Regularization_of_Inverse_Problems.html?id=2bzgmMv5EVcC&source=kp_book_description /Regularization of Inverse Problems/] by H. Engl, M. Hanke-Bourgeois and A. Neubauer
+	. [https://www.uni-muenster.de/AMM/num/Vorlesungen/IP_WS07/skript.pdf /Lecture notes/] by M. Burger
+	. [https://hal.archives-ouvertes.fr/hal-00437581/document /An introduction to Total Variation for Image Analysis/] by A. Chambolle
+	. [https://books.google.com/books/about/Data_Assimilation.html?id=FtDZDQAAQBAJ&source=kp_book_description /Data Assimilation: Methods, Algorithms, and Applications/] by M. Bocquet, M. Asch, and M. Nodet
+	. [http://www.karlin.mff.cuni.cz/~vybiral/Sem-2017/Rauhut.pdf /A Mathematical Introduction to Compressed Sensing/] by S. Foucart and H. Rauhut
+	
+
+	
+
+
