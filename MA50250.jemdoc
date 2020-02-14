@@ -11,6 +11,7 @@
 	. [files/teaching/MA505250/1_intro.pdf Introduction]
 	. [files/teaching/MA505250/2_pseudoinverse.pdf Least square solutions]
 	. [files/teaching/MA505250/3_regularisation.pdf Classical regularisation theory]
+	. [files/teaching/MA505250/4_variational.pdf Variational regularisation theory]
 
 
 === Exercises 
