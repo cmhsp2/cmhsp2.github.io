@@ -12,6 +12,7 @@
 	. [files/teaching/MA505250/2_pseudoinverse.pdf Least square solutions]
 	. [files/teaching/MA505250/3_regularisation.pdf Classical regularisation theory]
 	. [files/teaching/MA505250/4_variational.pdf Variational regularisation theory]
+	. [files/teaching/MA505250/5_optimisation.pdf Nonsmooth optimisation]
 
 
 === Coursework 
@@ -23,8 +24,8 @@
 
 
 === Guest Lectures
-	- Tues 10th March: [https://jliang993.github.io/ Jingwei Liang] on applications in image processing
-	- Tues 31st March: [https://people.bath.ac.uk/mascjb/ Chris Budd] on weather forecasting
+	- Tues 10th March: [https://jliang993.github.io/ Jingwei Liang] on applications in image processing. [files/teaching/MA505250/JL_guest.pdf *Slides*]
+	- Tues 31st March: [https://people.bath.ac.uk/mascjb/ Chris Budd] on weather forecasting.
 
 
 === Week 4 feedback forms ([files/teaching/MA505250/week4questionnaire.doc word], [files/teaching/MA505250/week4questionnaire.pdf pdf])
