@@ -25,13 +25,40 @@
 	. [files/teaching/MA505250/Ex_additional.pdf Exercise 1] [files/teaching/MA505250/additional_soln.pdf *Solutions*]
 	. [files/teaching/MA505250/Ex2_additional.pdf Exercise 2]
 
+=== Reading
+Please select one of the following topics and prepare a 15 minute presentation. Within some of these topics, I have included a selection of (related) papers. You may do the presentation on just one of these papers or several.
+
+- Maximum entropy regularisation
+	-- [https://epubs.siam.org/doi/abs/10.1137/0730079?journalCode=sjnaam Convergence rates for maximum entropy regularisation] by Engl and Landl
+	-- [https://arxiv.org/abs/1805.01722 Regularization of ill-posed problems with non-negative solutions]  by Clason et al
+
+- Iterative regularisation
+	-- [http://www.corc.ieor.columbia.edu/reports/techreports/tr-2004-03.pdf An Iterative Regularization Method for Total Variation-Based Image Restoration]  by Osher et al
+	-- [ftp://ftp.math.ucla.edu/pub/camreport/cam07-35.pdf Iterative Total Variation Schemes for Nonlinear Inverse problems] by Bachmayr and Burger
+
+- Data assimilation with Lagrangian data
+	-- [http://ljk.imag.fr/membres/Maelle.Nodet/M2MethInv/papiers/Kuznetsov-03.pdf A method for assimilation of Lagrangian data] by Kuznetsov et al 
+		-- [https://journals.ametsoc.org/doi/full/10.1175/MWR3104.1 A Method for Assimilating Lagrangian Data into a Shallow-Water-Equation
+Ocean Model] by Salman et al
+	-- [https://arxiv.org/abs/0804.1137 Variational assimilation of Lagrangian data in in oceanography] by Nodel
+
+- Recovery sparse spikes (via a continuous version of l1 regularisation)
+	-- [https://arxiv.org/abs/1301.5873 Spike detection from inaccurate samplings] by Azais et al
+	-- [https://arxiv.org/abs/1203.5871 Towards a Mathematical Theory of Super-Resolution] by Candes and Fernandez-Granda
+
+
+
+
+
+
+
 
 === Guest Lectures
 	- Tues 10th March: [https://jliang993.github.io/ Jingwei Liang] on applications in image processing. [files/teaching/MA505250/JL_guest.pdf *Slides*]
 	- Tues 31st March: [https://people.bath.ac.uk/mascjb/ Chris Budd] on weather forecasting.
 
 
-=== Week 4 feedback forms ([files/teaching/MA505250/week4questionnaire.doc word], [files/teaching/MA505250/week4questionnaire.pdf pdf])
+#=== Week 4 feedback forms ([files/teaching/MA505250/week4questionnaire.doc word], [files/teaching/MA505250/week4questionnaire.pdf pdf])
 
 ===  References
 	. [https://books.google.com/books/about/Regularization_of_Inverse_Problems.html?id=2bzgmMv5EVcC&source=kp_book_description /Regularization of Inverse Problems/] by H. Engl, M. Hanke-Bourgeois and A. Neubauer
