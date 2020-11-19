@@ -16,11 +16,11 @@
 	. [files/teaching/mathinform/notes/variational.pdf Variational and PDE methods]
 
 
-===  Exercises
-	. [files/teaching/mathinform/exercises/Ex1.pdf Sheet 1] (1pm, Monday 23rd October, MR21) [files/teaching/mathinform/exercises/Ex1-solns.pdf  solutions]
-	. [files/teaching/mathinform/exercises/Ex2.pdf Sheet 2] (2pm, Tuesday 7th November, MR11) [files/teaching/mathinform/exercises/Ex2-solns.pdf  solutions]
-	. [files/teaching/mathinform/exercises/Ex3.pdf Sheet 3] (1:30pm Friday 17th November, MR14, Hand in Q2,3,7 on Wednesday 15th November)
-	. [files/teaching/mathinform/exercises/Ex4.pdf Sheet 4] (3:30pm Monday 27th November, MR14, Hand in Q4,5 on Friday 24th November)
+#===  Exercises
+#	. [files/teaching/mathinform/exercises/Ex1.pdf Sheet 1] (1pm, Monday 23rd October, MR21) [files/teaching/mathinform/exercises/Ex1-solns.pdf  solutions]
+#	. [files/teaching/mathinform/exercises/Ex2.pdf Sheet 2] (2pm, Tuesday 7th November, MR11) [files/teaching/mathinform/exercises/Ex2-solns.pdf  solutions]
+#	. [files/teaching/mathinform/exercises/Ex3.pdf Sheet 3] (1:30pm Friday 17th November, MR14, Hand in Q2,3,7 on Wednesday 15th November)
+#	. [files/teaching/mathinform/exercises/Ex4.pdf Sheet 4] (3:30pm Monday 27th November, MR14, Hand in Q4,5 on Friday 24th November)
 
 
 === Matlab
@@ -34,7 +34,7 @@
 === Other software
 	. Wavelet toolbox: [http://statweb.stanford.edu/~wavelab/ Wavelab], Additional Wavelab files: [files/teaching/mathinform/WaveLabFiles.zip 32KB]
 	. Curvelet toolbox: [http://www.curvelet.org/software.html Curvelab]
-	. $\ell_1$ solvers: [https://www.cs.ubc.ca/~mpf/spgl1/index.html spgl1] or [https://statweb.stanford.edu/~Ecandes/nesta/ NESTA]     
+	#. $\ell_1$ solvers: [https://www.cs.ubc.ca/~mpf/spgl1/index.html spgl1] or [https://statweb.stanford.edu/~Ecandes/nesta/ NESTA]     
 	
 	
 	

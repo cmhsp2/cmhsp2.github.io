@@ -3,19 +3,19 @@
 
 
 == Preprint
+    . C. Poon and M. Golbabaee. [files/journal/sparse_group_blasso.pdf The Sparse-Group Beurling-Lasso].
     . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
 	. C. Poon, N. Keriven and G. Peyré. [files/journal/OfftheGridCS.pdf The geometry of off-the-grid compressed sensing].
-	#
     . C. Poon and G. Peyré. [https://arxiv.org/abs/1911.03577 Degrees of freedom for off-the-grid sparse estimation].
 	#. C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].
 
 
 == Journal papers
-    . V. Antun, F. Renna, C. Poon, B. Adcock, A. C. Hansen. [https://arxiv.org/abs/1902.05300 On instabilities of deep learning in image reconstruction and the potential costs of AI]. PNAS (to appear).
+    . V. Antun, F. Renna, C. Poon, B. Adcock, A. C. Hansen. [https://arxiv.org/abs/1902.05300 On instabilities of deep learning in image reconstruction and the potential costs of AI]. PNAS, 2020.
 	#
-	. C. Poon and G. Peyré. [files/journal/HigherDimBLASSO.pdf Multi-dimensional sparse super-resolution]. SIAM J. Math. Anal. 2018 (to appear).
+	. C. Poon and G. Peyré. [files/journal/HigherDimBLASSO.pdf Multi-dimensional sparse super-resolution]. SIAM J. Math. Anal. 51(1), 1-44. 2019.
 	#
-	. G. Carlier and C. Poon. [files/journal/tv-wass-cocv-final-version.pdf On the total variation Wasserstein gradient flow and the TV-JKO scheme]. ESAIM COCV, 2018 (to appear).
+	. G. Carlier and C. Poon. [files/journal/tv-wass-cocv-final-version.pdf On the total variation Wasserstein gradient flow and the TV-JKO scheme]. ESAIM COCV, 25, p.42. 2019.
 	#
 	. C. Dossal, V. Duval and C. Poon. [files/journal/radial_lines.pdf Sampling the Fourier transform along radial lines]. SIAM J. Numer. Anal., 55(6), 2540-2564. 2017.
 	#
