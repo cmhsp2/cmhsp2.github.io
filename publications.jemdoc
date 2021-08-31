@@ -8,11 +8,12 @@
     . C. Poon and M. Golbabaee. [files/journal/sparse_group_blasso.pdf The Sparse-Group Beurling-Lasso].
     . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
 	. C. Poon, N. Keriven and G. Peyré. [files/journal/OfftheGridCS.pdf The geometry of off-the-grid compressed sensing].
-    . C. Poon and G. Peyré. [https://arxiv.org/abs/1911.03577 Degrees of freedom for off-the-grid sparse estimation].
 	#. C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].
 
 
 == Journal papers
+    . C. Poon and G. Peyré. [https://arxiv.org/abs/1911.03577 Degrees of freedom for off-the-grid sparse estimation]. Bernoulli, 2021
+    #
     . V. Antun, F. Renna, C. Poon, B. Adcock, A. C. Hansen. [https://arxiv.org/abs/1902.05300 On instabilities of deep learning in image reconstruction and the potential costs of AI]. PNAS, 2020.
 	#
 	. C. Poon and G. Peyré. [files/journal/HigherDimBLASSO.pdf Multi-dimensional sparse super-resolution]. SIAM J. Math. Anal. 51(1), 1-44. 2019.
@@ -39,14 +40,14 @@
 	#
 	. B. Adcock, A. C. Hansen and C. Poon. [files/journal/OptimalityFinal.pdf Beyond consistent reconstructions: optimality and sharp bounds for generalized sampling, and application to the uniform resampling problem]. SIAM J. Math. Anal. 45(5):3132-3167, 2013.
 
-
-== Conferences proceedings
+== Machine learning Conference Proceedings
     . C. Poon, J. Liang. [files/journal/a3dmm.pdf Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration], Neurips 2019 (Oral).
 	#
     . C. Poon, N. Keriven and G. Peyré. [files/journal/blasso-fisher.pdf Support Localization and the Fisher Metric for off-the-grid Sparse Regularization], AISTATS, 2019.
     #
 	. C. Poon, J. Liang and C. Schoenlieb. [files/conference/local-rate.pdf Local convergence properties of SAGA/Prox-SVRG and acceleration]. ICML, 2018.
-	#
+
+== Other refereed conference proceedings
 	. A. Chambolle, V. Duval and G. Peyré and C. Poon. [files/conference/ncmip.pdf Total variation denoising and support localization of the gradient]. NCMIP, 2016.
 	#
 	. C. Poon. [files/conference/sampta2015_b.pdf Recovery guarantees for TV regularized compressed sensing]. Proceedings of the 11th International Conference on Sampling Theory and Applications, 2015.
