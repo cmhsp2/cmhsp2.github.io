@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{MA10274.html}, notime
+== Sequences and Functions (Semester 1, 2021)
+
+
+=== Time and Location
+	- Thursday 10.15-11.15 on Zoom (check your email, it's the same link every week)  
+	- Friday 17.15-18.15 in the Wolfson (Even weeks only)
+
+
+
+=== Lecture Materials 
+	. [files/teaching/MA10274/notes.pdf Lecture notes (to be updated as we progress)]
+	. [files/teaching/MA10274/L1_handout.pdf Intro slides]
+	. [files/teaching/MA10274/L2_handout.pdf Key logical concepts]
+	. [files/teaching/MA10274/L3_handout.pdf Notation of set theory and quantifiers]
+
+
+
+=== Homework 
+	. [files/teaching/MA10274/PS1.pdf Problem sheet 1] 
+
+=== Video recordings
+	. [https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6ee7f043-7ebc-4135-b2dc-adba00af1a29 Lecture 1 (introduction)] 
+    . [https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c813630b-3de3-4029-a837-adba00af1a31 Lecture 1 (key logical concepts)] 
+	. [https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=314be1b7-f8cc-4fbc-bd3a-adbb010a99d5 Lecture 2 (manipulating statements, notation and quantifiers)]
+
+
+=== Reading
+The recommended textbook is [http://libproxy.bath.ac.uk/login?qurl=https%3A%2F%2Fbath-ac-primo.hosted.exlibrisgroup.com%2Fpermalink%2Ff%2F1p1utho%2F44BAT_ALMA_DS2136937740002761 Introduction to real analysis] by Bartle and Sherbert.
