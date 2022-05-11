@@ -4,9 +4,7 @@
 
 ~~~
 {}{img_left}{files/clarice.JPG}{}{}{275px}{}
-I am a lecturer at the [http://www.bath.ac.uk/departments/department-of-mathematical-sciences/ University of Bath]. I completed my PhD at the [http://www.maths.cam.ac.uk/postgrad/cca/ Cambridge Centre for Analysis], [https://www.cam.ac.uk/ University of Cambridge] under the supervision of [http://www.damtp.cam.ac.uk/user/na/people/Anders/ Anders Hansen].
-
-I spent the academic year 2015/2016 at [http://www.dauphine.fr/en/welcome.html Universite Paris Dauphine] as an [http://www.sciencesmaths-paris.fr/en/postdoctoral-programmes-247.htm FSMP postdoctoral researcher].
+I am a lecturer at the [http://www.bath.ac.uk/departments/department-of-mathematical-sciences/ University of Bath]. I completed my PhD at the [http://www.maths.cam.ac.uk/postgrad/cca/ Cambridge Centre for Analysis], [https://www.cam.ac.uk/ University of Cambridge] under the supervision of [http://www.damtp.cam.ac.uk/user/na/people/Anders/ Anders Hansen]. Between 2015 and 2018, I was a research fellow at Peterhouse, Cambridge.
 ~~~
 
 
@@ -14,5 +12,14 @@ I spent the academic year 2015/2016 at [http://www.dauphine.fr/en/welcome.html U
 == Contact
 	- E-mail: C.M.H.Poon at bath.ac.uk
 	- Address: Department of Mathematical Sciences, University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom 
+    
+== Slides for Mini-Course on sparse estimation off the grid. 
+
+Focus Program on Data Science, Approximation Theory, and Harmonic Analysis, Fields Institute, Toronto. (12-13 May 2022)
+    - [files/toronto2022/slides1.pdf Slides1]
+    - [files/toronto2022/slides2.pdf Slides2]
+    - [files/toronto2022/slides3.pdf Slides3]
+    - Demo on [https://colab.research.google.com/drive/1peQtf0rxeOoNVOwW4kCJVCWjtVzKe-OJ?usp=sharing Sliding Frank-Wolfe]
+    - Demo on [https://colab.research.google.com/drive/1wbpB1Jvxg25nE9zhBFR4mXyYj6YTeKHd?usp=sharing VarPro]
 
 
