@@ -2,7 +2,6 @@
 == Publications
 
 == Preprint
-    . C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]
     . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
     
     #. C. Poon and M. Golbabaee. [files/journal/sparse_group_blasso.pdf The Sparse-Group Beurling-Lasso].
@@ -11,7 +10,8 @@
 
 
 == Journal papers
-    . J. Liang and C. Poon. [https://arxiv.org/abs/2101.06982 Screening for sparse online learning]. Journal of computational and graphical statistics, 2022 (accepted)
+	. C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]. Mathematical Programming (2023): 1-56.
+    . J. Liang and C. Poon. [https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2099872 Variable Screening for Sparse Online Regression]. Journal of Computational and Graphical Statistics 32.1 (2023): 275-293.
     . M. Golbabaee and C. Poon. [https://arxiv.org/abs/2011.11193 An off-the-grid approach to multi-compartment magnetic resonance fingerprinting]. Inverse Problems, 2022 (accepted)
     . C. Poon, N. Keriven and G. Peyré. [files/journal/OfftheGridCS.pdf The geometry of off-the-grid compressed sensing]. Foundations of Computational Mathematics (2021): 1-87.
     #
