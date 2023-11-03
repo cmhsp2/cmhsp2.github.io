@@ -11,20 +11,19 @@
 	#. C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].
 
 
-== Journal papers
+== Main publications
 	. C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]. Mathematical Programming (2023): 1-56.
     . J. Liang and C. Poon. [https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2099872 Variable Screening for Sparse Online Regression]. Journal of Computational and Graphical Statistics 32.1 (2023): 275-293.
-    . M. Golbabaee and C. Poon. [https://arxiv.org/abs/2011.11193 An off-the-grid approach to multi-compartment magnetic resonance fingerprinting]. Inverse Problems, 2022 (accepted)
+    . M. Golbabaee and C. Poon. [https://arxiv.org/abs/2011.11193 An off-the-grid approach to multi-compartment magnetic resonance fingerprinting]. Inverse Problems 38.8 (2022): 085002.
+    . C. Poon and G. Peyré. [https://arxiv.org/abs/2106.01429 Smooth Bilevel Programming for Sparse Regularization], Neurips 2021.
     . C. Poon, N. Keriven and G. Peyré. [files/journal/OfftheGridCS.pdf The geometry of off-the-grid compressed sensing]. Foundations of Computational Mathematics (2021): 1-87.
-    #
     . C. Poon and G. Peyré. [https://arxiv.org/abs/1911.03577 Degrees of freedom for off-the-grid sparse estimation]. Bernoulli 28(3): 2095-2121, 2022.
-    #
     . V. Antun, F. Renna, C. Poon, B. Adcock, A. C. Hansen. [https://arxiv.org/abs/1902.05300 On instabilities of deep learning in image reconstruction and the potential costs of AI]. PNAS, 2020.
-	#
+    . C. Poon, J. Liang. [files/journal/a3dmm.pdf Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration], Neurips 2019 (Oral).
+    . C. Poon, N. Keriven and G. Peyré. [files/journal/blasso-fisher.pdf Support Localization and the Fisher Metric for off-the-grid Sparse Regularization], AISTATS, 2019.
 	. C. Poon and G. Peyré. [files/journal/HigherDimBLASSO.pdf Multi-dimensional sparse super-resolution]. SIAM J. Math. Anal. 51(1), 1-44. 2019.
-	#
 	. G. Carlier and C. Poon. [files/journal/tv-wass-cocv-final-version.pdf On the total variation Wasserstein gradient flow and the TV-JKO scheme]. ESAIM COCV, 25, p.42. 2019.
-	#
+	. C. Poon, J. Liang and C. Schoenlieb. [files/conference/local-rate.pdf Local convergence properties of SAGA/Prox-SVRG and acceleration]. ICML, 2018.
 	. C. Dossal, V. Duval and C. Poon. [files/journal/radial_lines.pdf Sampling the Fourier transform along radial lines]. SIAM J. Numer. Anal., 55(6), 2540-2564. 2017.
 	#
 	. B. Adcock, A. C. Hansen and C. Poon and B. Roman. [files/journal/BreakingCoherenceArxiv.pdf Breaking the coherence barrier: a new theory for compressed sensing].  Forum of Mathematics, Sigma 5, 001, 2017.
@@ -45,13 +44,7 @@
 	#
 	. B. Adcock, A. C. Hansen and C. Poon. [files/journal/OptimalityFinal.pdf Beyond consistent reconstructions: optimality and sharp bounds for generalized sampling, and application to the uniform resampling problem]. SIAM J. Math. Anal. 45(5):3132-3167, 2013.
 
-== Machine learning Conference Proceedings
-    . C. Poon and G. Peyré. [https://arxiv.org/abs/2106.01429 Smooth Bilevel Programming for Sparse Regularization], Neurips 2021.
-    . C. Poon, J. Liang. [files/journal/a3dmm.pdf Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration], Neurips 2019 (Oral).
-	#
-    . C. Poon, N. Keriven and G. Peyré. [files/journal/blasso-fisher.pdf Support Localization and the Fisher Metric for off-the-grid Sparse Regularization], AISTATS, 2019.
-    #
-	. C. Poon, J. Liang and C. Schoenlieb. [files/conference/local-rate.pdf Local convergence properties of SAGA/Prox-SVRG and acceleration]. ICML, 2018.
+
 
 == Other refereed conference proceedings
 	. A. Chambolle, V. Duval and G. Peyré and C. Poon. [files/conference/ncmip.pdf Total variation denoising and support localization of the gradient]. NCMIP, 2016.
