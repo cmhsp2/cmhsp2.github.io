@@ -2,8 +2,8 @@
 == Publications
 
 == Preprint
+	. I. Cheltsov and F. Cornalba and C. Poon and T. Shardlow. [https://arxiv.org/abs/2411.11403 Hadamard Langevin dynamics for sampling sparse priors]
 	. C. Poon and G. Peyr\'e. [https://arxiv.org/abs/2311.09928 Super-resolved Lasso]
-	. F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]
 	. F. Wang and C. Poon and T. Shardlow. [https://arxiv.org/abs/2310.05019 Compressed Online Sinkhorn].
     . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
     
@@ -13,6 +13,7 @@
 
 
 == Main publications
+	. F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. ICLR 2024.
 	. C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]. Mathematical Programming (2023): 1-56.
     . J. Liang and C. Poon. [https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2099872 Variable Screening for Sparse Online Regression]. Journal of Computational and Graphical Statistics 32.1 (2023): 275-293.
     . M. Golbabaee and C. Poon. [https://arxiv.org/abs/2011.11193 An off-the-grid approach to multi-compartment magnetic resonance fingerprinting]. Inverse Problems 38.8 (2022): 085002.
