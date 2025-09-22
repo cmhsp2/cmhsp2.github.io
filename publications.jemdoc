@@ -2,18 +2,18 @@
 == Publications
 
 == Preprint
-	. I. Cheltsov and F. Cornalba and C. Poon and T. Shardlow. [https://arxiv.org/abs/2411.11403 Hadamard Langevin dynamics for sampling sparse priors]
-	. C. Poon and G. Peyr\'e. [https://arxiv.org/abs/2311.09928 Super-resolved Lasso]
-	. F. Wang and C. Poon and T. Shardlow. [https://arxiv.org/abs/2310.05019 Compressed Online Sinkhorn].
+	. G. S. Alberti, R. Petit and C. Poon. [https://arxiv.org/abs/2507.03379 On the non-convexity issue in the radial Calderón problem]
+	. F. Andrad, G. Peyré and C. Poon. [https://arxiv.org/abs/2505.07124 Learning from Samples: Inverse Problems over measures via Sharpened Fenchel-Young Losses]. 
+	. I. Cheltsov, F. Cornalba, C. Poon and T. Shardlow. [https://arxiv.org/abs/2411.11403 Hadamard Langevin dynamics for sampling sparse priors]
+	. F. Wang, C. Poon and T. Shardlow. [https://arxiv.org/abs/2310.05019 Compressed Online Sinkhorn].
     . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
     
-    #. C. Poon and M. Golbabaee. [files/journal/sparse_group_blasso.pdf The Sparse-Group Beurling-Lasso].
-    
-	#. C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].
+
 
 
 == Main publications
-	. F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. ICLR 2024.
+	. C. Poon and G. Peyré. [https://arxiv.org/abs/2311.09928 Super-resolved Lasso] Information and Inference 2025.
+	.  F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. ICLR 2024.
 	. C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]. Mathematical Programming (2023): 1-56.
     . J. Liang and C. Poon. [https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2099872 Variable Screening for Sparse Online Regression]. Journal of Computational and Graphical Statistics 32.1 (2023): 275-293.
     . M. Golbabaee and C. Poon. [https://arxiv.org/abs/2011.11193 An off-the-grid approach to multi-compartment magnetic resonance fingerprinting]. Inverse Problems 38.8 (2022): 085002.
@@ -58,4 +58,8 @@
 	. B. Adcock, A. C. Hansen and C. Poon. [files/conference/sampta_wavelets.pdf Optimal wavelet reconstructions from Fourier samples via generalized sampling].  Proceedings of the 10th International Conference on Sampling Theory and Applications, 2013.
 	
 	
-	
+== Other writings
+    . C. Poon and M. Golbabaee. [files/journal/sparse_group_blasso.pdf The Sparse-Group Beurling-Lasso].
+    
+    . C. Poon. [files/journal/CAr.pdf On Cartesian line sampling with anisotropic total variation regularization].	
+
