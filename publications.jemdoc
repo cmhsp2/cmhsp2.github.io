@@ -1,17 +1,21 @@
 # jemdoc: menu{MENU}{publications.html}, notime
 == Publications
 
-== Preprint
-	. G. S. Alberti, R. Petit and C. Poon. [https://arxiv.org/abs/2507.03379 On the non-convexity issue in the radial Calderón problem]
-	. F. Andrad, G. Peyré and C. Poon. [https://arxiv.org/abs/2505.07124 Learning from Samples: Inverse Problems over measures via Sharpened Fenchel-Young Losses]. 
-	. I. Cheltsov, F. Cornalba, C. Poon and T. Shardlow. [https://arxiv.org/abs/2411.11403 Hadamard Langevin dynamics for sampling sparse priors]
+== Preprints
+	. R. Petit, C. Poon and G. Peyré. On the global convergence of gradient descent
+for wide shallow models with bounded nonlinearities.
+	. G. Peyré, C. Poon and O. Tron. [https://arxiv.org/pdf/2604.22670 Curvature of Optimal Transport with Respect to the Cost and Applications to Inverse Optimal Transport.]
+	. Y. Bai, C. Poon and J. Liang. [https://arxiv.org/abs/2601.20697 Adaptive Dimension Reduction for Overlapping Group Sparsity]
+	. F. Andrade, G. Peyré and C. Poon. [https://arxiv.org/abs/2505.07124 Learning from Samples: Inverse Problems over measures via Sharpened Fenchel-Young Losses]. 
 	. F. Wang, C. Poon and T. Shardlow. [https://arxiv.org/abs/2310.05019 Compressed Online Sinkhorn].
-    . C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
+    	. C. Poon and J. Liang. [https://arxiv.org/abs/2003.03910 Geometry of First-Order Methods and Adaptive Acceleration].
     
 
 
 
 == Main publications
+	. I. Cheltsov, F. Cornalba, C. Poon and T. Shardlow. [https://arxiv.org/abs/2411.11403 Hadamard Langevin dynamics for sampling sparse priors] Bernoulli 2026.
+	. G. S. Alberti, R. Petit, C. Poon and I. Waldspurger. [https://arxiv.org/abs/2507.03379 On the non-convexity issue in the radial Calderón problem] SIAM J. Imag. Sci. 2026.
 	. C. Poon and G. Peyré. [https://arxiv.org/abs/2311.09928 Super-resolved Lasso] Information and Inference 2025.
 	.  F. Andrade and G. Peyré and C. Poon. [https://arxiv.org/abs/2310.05461 Sparsistency for Inverse Optimal Transport]. ICLR 2024.
 	. C. Poon and G. Peyré. [https://arxiv.org/abs/2205.01385 Smooth over-parameterized solvers for non-smooth structured optimization]. Mathematical Programming (2023): 1-56.
