@@ -2,8 +2,8 @@
 == Publications
 
 == Preprints
-	. R. Petit, C. Poon and G. Peyré. On the global convergence of gradient descent
-for wide shallow models with bounded nonlinearities.
+	. R. Petit, C. Poon and G. Peyré. [http://arxiv.org/abs/2605.10775 On the global convergence of gradient descent
+for wide shallow models with bounded nonlinearities.]
 	. G. Peyré, C. Poon and O. Tron. [https://arxiv.org/pdf/2604.22670 Curvature of Optimal Transport with Respect to the Cost and Applications to Inverse Optimal Transport.]
 	. Y. Bai, C. Poon and J. Liang. [https://arxiv.org/abs/2601.20697 Adaptive Dimension Reduction for Overlapping Group Sparsity]
 	. F. Andrade, G. Peyré and C. Poon. [https://arxiv.org/abs/2505.07124 Learning from Samples: Inverse Problems over measures via Sharpened Fenchel-Young Losses]. 
